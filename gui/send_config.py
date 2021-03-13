@@ -94,6 +94,8 @@ configs = {
     'Hostname':
         [
             Setting(command='hostname', description='Hostname', widget_class=QLineEdit, required=True),
+            Setting(command='devicename', description='Device Name', widget_class=QLineEdit, required=True),
+            Setting(command='friendlyname1', description='Friendly Name 1', widget_class=QLineEdit, required=True),
         ],
     'WiFi':
         [
