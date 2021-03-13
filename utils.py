@@ -1,6 +1,7 @@
 BINS_URL = 'http://ota.tasmota.com'
 
 MODULES = {
+    "0": "Custom Template",
     "1": "Sonoff Basic",
     "2": "Sonoff RF",
     "4": "Sonoff TH",
