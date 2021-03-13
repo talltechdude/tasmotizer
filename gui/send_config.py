@@ -88,7 +88,8 @@ class Setting:
                 QMessageBox.critical(self, "Error", "Tasmotizer is unable to use your system keyring")
 
             return f'{self.command} {value}'
-
+        else:
+            return ''
 
 configs = {
     'Hostname':
